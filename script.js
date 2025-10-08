@@ -79,7 +79,7 @@ function enviarWhatsApp() {
   }
 
   const mensaje = encodeURIComponent(`¡Hola! Quiero pedir:\n${carrito.map(p => '🕯️ ' + p).join('\n')}`);
-  const url = `https://wa.me/573120000000?text=${mensaje}`;
+  const url = `https://wa.me/573138670564?text=${mensaje}`;
   window.open(url, '_blank');
 }
 
@@ -100,4 +100,5 @@ window.addEventListener("scroll", function () {
     headerFlotante.classList.remove("visible");
   }
 });
+
 
